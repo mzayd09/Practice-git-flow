@@ -3,6 +3,9 @@ import { test, expect } from '@playwright/test';
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 // I am trying to add code without a saas pull//
+=======
+//editing file before taking pull 2//
+>>>>>>> 260b4e76c5bf84e7c10e603d0d3daaee005a5547
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
 });
